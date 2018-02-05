@@ -52786,7 +52786,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
       }
 
       return _ret = (_temp = (_this = babelHelpers.possibleConstructorReturn(this, (_ref = Communication.__proto__ || Object.getPrototypeOf(Communication)).call.apply(_ref, [this].concat(args))), _this), _this.onPress = function () {
-        _reactNative.NativeModules.CommunicationInterface.HandleMessage("Rn调用 原生 来吐司！！");
+        _reactNative.NativeModules.ToastAndroidModule.HandleMessage("React Native 呼叫Native来吐司！！");
       }, _temp), babelHelpers.possibleConstructorReturn(_this, _ret);
     }
 
@@ -52800,7 +52800,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
             onPress: this.onPress.bind(this),
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 22
+              lineNumber: 23
             }
           },
           _react2.default.createElement(
@@ -52815,7 +52815,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
               },
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 23
+                lineNumber: 24
               }
             },
             _react2.default.createElement(
@@ -52824,10 +52824,10 @@ __d(function (global, require, module, exports, _dependencyMap) {
                 style: styles.text,
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 25
+                  lineNumber: 31
                 }
               },
-              "\u70B9\u51FBRn \u8C03\u7528\u539F\u751FToast\u65B9\u6CD5"
+              "\u9019\u662F\u4E00\u500BReact Native\u6309\u9215,\u9EDE\u64CA\u8ABF\u7528\u539F\u751FToast\u65B9\u6CD5"
             )
           )
         );
@@ -52869,7 +52869,7 @@ __d(function (global, require, module, exports, _dependencyMap) {
       var _this = babelHelpers.possibleConstructorReturn(this, (Communication3.__proto__ || Object.getPrototypeOf(Communication3)).call(this));
 
       _this.state = {
-        info: "我是Rn写的内容"
+        info: "我是React Native寫的內容"
       };
       return _this;
     }

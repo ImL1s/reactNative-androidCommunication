@@ -14,7 +14,7 @@ export default class Communication extends React.Component {
 
   onPress = ()=> {
     // 這樣調用原生端方法,show出吐司
-    NativeModules.CommunicationInterface
+    NativeModules.ToastAndroidModule
     .HandleMessage("React Native 呼叫Native来吐司！！");
   }
 
