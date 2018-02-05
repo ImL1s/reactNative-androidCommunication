@@ -11,7 +11,7 @@
         android:layout_height="40dp"
         android:layout_margin="10dp"
         android:background="#ddf"
-        android:text="我是原生按钮点击我调用Rn 方法" />
+        android:text="我是原生按鈕點擊我調用React Native方法" />
 
 
     <com.facebook.react.ReactRootView

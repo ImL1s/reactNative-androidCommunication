@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(), DefaultHardwareBackBtnHandler {
         }
 
         btn_react_communication.setOnClickListener {
-            val intent = Intent(this, ReactComunicationActivity::class.java)
+            val intent = Intent(this, ReactCommunicationActivity::class.java)
             startActivity(intent)
         }
 

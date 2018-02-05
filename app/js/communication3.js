@@ -16,7 +16,7 @@ export default class Communication3 extends React.Component {
       constructor(){
         super();
         this.state = {
-            info : "我是Rn写的内容"
+            info : "我是React Native寫的內容"
         }
       }
 

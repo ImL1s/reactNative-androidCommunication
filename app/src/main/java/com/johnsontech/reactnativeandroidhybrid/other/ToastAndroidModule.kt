@@ -7,22 +7,22 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 
 
-
-
 /**
  * Created by ImL1s on 31/01/2018.
  * Description:
  */
-class CommunicationInterface(private val reactContext: ReactApplicationContext) :
+class ToastAndroidModule(private val reactContext: ReactApplicationContext) :
         ReactContextBaseJavaModule(reactContext) {
 
+    /**
+     * react native call android時的模組名稱
+     */
     override fun getName(): String {
-        return "CommunicationInterface"
+        return "ToastAndroidModule"
     }
 
     /**
-     * Rn 需要调用的方法：
-     * @param message
+     * react native call(->) android
      */
     @ReactMethod
     fun HandleMessage(message: String) {
@@ -30,7 +30,7 @@ class CommunicationInterface(private val reactContext: ReactApplicationContext) 
     }
 
     /**
-     * 发送消息到  RN 界面
+     * android call(->) react native
      */
     fun sendMessage(params: String) {
         reactContext

@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ReactContentActivity" />
-        <activity android:name=".ReactComunicationActivity" />
+        <activity android:name=".ReactCommunicationActivity" />
     </application>
 
 </manifest>
