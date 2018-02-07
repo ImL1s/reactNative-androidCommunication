@@ -1,6 +1,7 @@
 # React Native與Android交互
 - author: ImL1s
 - email: iml1s@outlook.com
+- [github](https://github.com/ImL1s/react-native-androidCommunication)
 
 ## Android引用React Native Component
 
